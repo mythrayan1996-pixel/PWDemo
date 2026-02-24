@@ -15,9 +15,9 @@ test('TC test',async()=>{
     const page1 = await brContext.newPage()
     const page2 = await brContext.newPage()
     await page1.goto('https://www.google.com/')
-    await page2.goto('https://www.facebook.com/')
+    await page2.goto('https://www.youtube.com/')
 
     await expect(page1).toHaveTitle(/Google/)
-     await expect(page2).toHaveTitle(/Facebook/)
+     await expect(page2).toHaveTitle(/Youtube/)
 
 })
