@@ -18,6 +18,6 @@ test('TC test',async()=>{
     await page2.goto('https://www.youtube.com/')
 
     await expect(page1).toHaveTitle(/Google/)
-     await expect(page2).toHaveTitle(/Youtube/)
+     await expect(page2).toHaveTitle(/YouTube/)
 
 })
