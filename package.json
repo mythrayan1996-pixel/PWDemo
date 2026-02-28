@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:filtered": "playwright test --grep @TC test"
+    "test:filtered": "playwright test"
   },
   "keywords": [],
   "author": "",

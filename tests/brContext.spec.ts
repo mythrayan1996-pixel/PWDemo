@@ -8,7 +8,7 @@ test('test case name',async({page})=>{
 
 })
 
-test('TC test',async()=>{
+test('TC test @myTest',async()=>{
 
     const chromeBrowser = await chromium.launch()   
     const brContext = await chromeBrowser.newContext()
